@@ -14,3 +14,4 @@ async function uploadScreenshot() {
 uploadScreenshot().catch((error) => {
 	core.setFailed(error.message);
 });
+
